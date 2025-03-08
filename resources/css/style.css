@@ -37,6 +37,7 @@ header .colmar-header {
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    margin-right: 1.5rem;
 }
 
 header .colmar-text {
@@ -60,8 +61,6 @@ header nav ul {
     display: flex;
 }
 
-
-
 .main-content {
     position: relative;
     top: 4rem; /* To offset for fixed header. */
@@ -82,11 +81,10 @@ nav a {
     font-size: 1rem;
     color: #4a4a4a;
     font-family: "Roboto-Regular", sans-serif; 
-    margin-right: 1.875rem;
+    margin-right: 1rem;
 }
   
 nav li {
-    padding-left: .5rem;
     list-style: none;
 }
 
