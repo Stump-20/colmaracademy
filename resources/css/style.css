@@ -72,12 +72,6 @@ header nav ul {
     top: 4rem; /* To offset for fixed header. */
 }
 
-.button {
-    border-radius: 4px;
-    background-color: #4a4a4a;
-    color: white;
-}
-
 a {
     text-decoration: none;
 }
@@ -107,16 +101,37 @@ div .banner {
     width: 100%;
     background-color: lightgray;
     height: auto;
-    border: solid 1px #c6c1c1;
-    padding: 1.5rem 2rem;
+    border: solid 1px #c6c1c1
+}
+
+div .banner-image-container {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-size: cover;
-    background-repeat: no-repeat;
+    align-items: center;
 }
 
 div .banner-pic {
     height: auto;
     width: 60%;
+    padding: 1.5rem 2rem;
+}
+
+div .content-center {
+    width: 100%;
+    text-align: center;
+    padding-right: 1.5rem;
+} 
+
+div .learn-something-new-everyday {
+    padding: 1rem 0;
+}
+
+div .foreign-language {
+    padding: 1rem 0;
+}
+
+div .start-here {
+    border-radius: 4px;
+    background-color: #4a4a4a;
+    color: white;
+    padding: 0.5rem 0;
 }
