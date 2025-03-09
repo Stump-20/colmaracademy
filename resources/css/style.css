@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 html {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     display: block;
+    color: #4a4a4a;
 }
 
 @media only screen and (max-width: 895px) {
@@ -24,38 +26,38 @@ header {
     width: 100%;
     height: 4rem;
     border-bottom: solid 1px #c6c1c1;
-    background-color: white;
+    background-color: white; 
     display: flex;
     align-items: center;
   }
 
-header .content {
+.content {
     display: flex;
     align-items: center;
     width: 100%;
+    
 }
 
-header .colmaracademytext {
+.colmaracademytext {
     display: flex;
     align-items: center;
 }
 
-header .colmar-header {
+.colmar-header {
     display: flex;
     width: 100%;
     justify-content: flex-end;
     margin-right: 1.5rem;
 }
 
-header .colmar-text {
+.colmar-text {
     flex: 1;
-    color: black;
     font-weight: bold;
     font-size: 1.5rem;
     font-family: "Roboto-Mono-Regular", sans-serif; 
 }
 
-header .academy-text {
+.academy-text {
     flex: 1;
     color: lightgray;
     font-size: 1.5rem;
@@ -87,50 +89,53 @@ nav li {
     list-style: none;
 }
 
-header .icon {
+.icon {
     height: 3rem;
     padding-left: 1.5rem;
 }
   
-header .mobile {
+.mobile {
     display: none;
 }
 
-div .banner {
+.banner, .information {
     width: 100%;
-    background-color: lightgray;
     height: auto;
     border: solid 1px #c6c1c1
 }
 
-div .banner-image-container {
+.banner {
+    background-color: lightgray;
+}
+
+.banner-image-container {
     display: flex;
     align-items: center;
 }
 
-div .banner-pic {
+.banner-pic {
     height: auto;
     width: 60%;
     padding: 1.5rem 2rem;
 }
 
-div .content-center {
+.content-center {
     width: 35%;
     text-align: left;
     padding-right: 1.5rem;
 } 
 
-div .learn-something-new-everyday {
+.learn-something-new-everyday {
     padding: 1rem 0;
     font-size: 3rem;
 }
 
-div .foreign-language {
+.foreign-language1 {
     padding: 2rem 0;
     font-size: 2rem;
 }
 
-div .start-here {
+.start-here {
     padding: .5rem 0;
     font-size: 2rem;
     text-align: center;
@@ -140,4 +145,35 @@ div .start-here {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Information Section */
+
+.information-image-container {
+    width: 60%;
+    padding: .5rem 1.5rem;
+}
+
+.info-pic, .practice, .foreign-language2, .author {
+    padding: 1.5rem 0;
+}
+
+.info-pic {
+    height: auto;
+    width: 100%;
+    
+}
+
+.practice {
+    font-size: 3rem;
+}
+
+.foreign-language2 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.author {
+    font-size: 1rem;
+    font-weight: normal;
 }
