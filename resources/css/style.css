@@ -149,19 +149,23 @@ nav li {
 
 /* Information Section */
 
+.information {
+    display: flex;
+    padding: 1rem 1.5rem;
+}
+
 .information-image-container {
     width: 60%;
-    padding: .5rem 1.5rem;
+    padding: 0 1.5rem 0 0;
 }
 
 .info-pic, .practice, .foreign-language2, .author {
-    padding: 1.5rem 0;
+    padding-bottom: 1.5rem;
 }
 
 .info-pic {
     height: auto;
     width: 100%;
-    
 }
 
 .practice {
@@ -177,3 +181,38 @@ nav li {
     font-size: 1rem;
     font-weight: normal;
 }
+
+
+.info-feed{
+    width: 40%;
+    height: auto;
+    border-left: 1px solid;
+    border-color: #c6c1c1
+}
+
+.orientation {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c6c1c1;
+} 
+
+.info-feed-pic {
+   width: 35%;
+   height: auto;
+}
+
+.info-feed-text {
+    height: auto;
+    padding: 0 2rem;
+}
+
+.info-feed-text h3 {
+    font-weight: normal;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.read-more {
+    color: rgb(93, 146, 220);
+}
+
