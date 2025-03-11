@@ -190,10 +190,12 @@ nav li {
     border-color: #c6c1c1
 }
 
-.orientation {
+.info-feed-sub1 {
     display: flex;
     align-items: center;
     border: 1px solid #c6c1c1;
+    padding: 0 1rem 1rem;
+    line-height: 2rem;
 } 
 
 .info-feed-pic {
@@ -216,3 +218,19 @@ nav li {
     color: rgb(93, 146, 220);
 }
 
+.info-feed-sub2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c6c1c1;
+    padding: 1rem 1rem;
+    line-height: 2rem;
+} 
+
+.info-feed-sub3 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c6c1c1;
+    background-color: lightgray;
+    padding: 1rem 1rem;
+    line-height: 2rem;
+} 
