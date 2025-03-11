@@ -234,3 +234,55 @@ nav li {
     padding: 1rem 1rem;
     line-height: 2rem;
 } 
+
+/* Start Learning Section */
+
+.start-learning {
+    background-color: #f3f3f3;
+    padding: 0 4.5rem 2rem;
+}
+
+.start-learning-text{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.start-learning-content-container-main {
+    display: flex;
+    justify-content: center;
+    
+}
+  
+.start-learning-box {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 0 2rem;
+    background-color: white;
+}
+  
+.start-learning-image-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+  
+.start-learning-content {
+    padding: 2.5rem;
+}
+  
+.start-learning-box h2 {
+    padding-bottom: .5rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+  
+.start-learning-box h3 {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #4a4a4a;
+    padding: 0.5rem 0;
+}
