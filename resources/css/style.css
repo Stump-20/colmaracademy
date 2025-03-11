@@ -240,6 +240,8 @@ nav li {
 .start-learning {
     background-color: #f3f3f3;
     padding: 0 4.5rem 2rem;
+    width: 100%;
+    height: auto;
 }
 
 .start-learning-text{
@@ -251,13 +253,16 @@ nav li {
 .start-learning-content-container-main {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: auto;
     
 }
   
-.start-learning-box {
+.start-learning-box { 
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
-    flex: 1;
     margin: 0 2rem;
     background-color: white;
 }
@@ -265,7 +270,15 @@ nav li {
 .start-learning-image-container {
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.start-learning-image-container img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
   
 .start-learning-content {
