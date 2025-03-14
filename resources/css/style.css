@@ -39,6 +39,7 @@ header {
 }
 
 .colmaracademytext {
+    width: auto;
     display: flex;
     align-items: center;
 }
@@ -46,6 +47,7 @@ header {
 .colmar-header {
     display: flex;
     justify-content: flex-end;
+    white-space: nowrap;
     margin-right: 1.5rem;
 }
 
@@ -64,6 +66,7 @@ header {
 }
   
 header nav ul {
+    width: auto;
     display: flex;
 }
 
@@ -235,9 +238,8 @@ nav li {
 }
 
 .start-learning-text{
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
+   text-align: center;
+   padding: 2rem 0;
 }
 
 .start-learning-content-container-main {
