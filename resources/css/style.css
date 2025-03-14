@@ -162,10 +162,6 @@ nav li {
     padding-bottom: 1.5rem;
 }
 
-.info-pic {
-    
-}
-
 .practice {
     font-size: 3rem;
 }
@@ -243,15 +239,16 @@ nav li {
 }
 
 .start-learning-content-container-main {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem; /* Adjust the gap between images as needed */
     justify-content: center;
-    
 }
   
 .start-learning-box { 
     display: flex;
     justify-content: center;
-    margin: 0 2rem;
     background-color: white;
 }
   
