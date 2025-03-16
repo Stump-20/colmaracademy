@@ -75,6 +75,10 @@ header nav ul {
     top: 4rem; /* To offset for fixed header. */
 }
 
+a:active, a:hover {
+    color: rgb(216, 216, 216)
+}
+
 a {
     text-decoration: none;
 }
@@ -144,7 +148,14 @@ nav li {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s ease-in;
 }
+
+.start-here:hover {
+    transition: 0.2s ease-out;
+    transform: scale(1.01);
+}
+
 
 /* Information Section */
 
@@ -221,10 +232,13 @@ nav li {
     display: flex;
     align-items: center;
     border: 1px solid #c6c1c1;
-    background-color: lightgray;
     padding: 1rem 1rem;
     line-height: 2rem;
 } 
+
+.info-feed-sub1:hover, .info-feed-sub2:hover, .info-feed-sub3:hover {
+    background-color: rgb(216, 216, 216);
+}
 
 /* Start Learning Section */
 
@@ -244,12 +258,19 @@ nav li {
     grid-template-rows: repeat(2, auto);
     gap: 2rem; /* Adjust the gap between images as needed */
     justify-content: center;
+    
 }
   
-.start-learning-box { 
+.start-learning-box{ 
     display: flex;
     justify-content: center;
     background-color: white;
+    transition: 0.3s ease-in;
+}
+
+.start-learning-box:hover { 
+    transition: 0.3s ease-out;
+    transform: scale(1.05);
 }
   
 .start-learning-image-container {
@@ -279,4 +300,78 @@ nav li {
     font-weight: 300;
     color: #4a4a4a;
     padding: 0.5rem 0;
+}
+
+/* Thesis Section */
+
+.thesis {
+    padding: 1rem 1.5rem;
+}
+
+.thesis-text{
+    text-align: center;
+    padding: 2rem 0;
+ }
+
+.thesis-content {
+    display: flex;
+}
+
+.thesis-image-container {
+    width: 60%;
+    padding: 0 1.5rem 0 0;
+}
+
+.thesis-video, .reimagine-urban {
+    padding-bottom: 1.5rem;
+}
+
+.reimagine-urban {
+    font-size: 3rem;
+}
+
+
+.info-feed{
+    width: 40%;
+    border-left: 1px solid;
+    border-color: #c6c1c1
+}
+
+.info-feed-sub1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c6c1c1;
+    padding: 0 1rem 1rem;
+    line-height: 2rem;
+} 
+
+.info-feed-pic {
+   width: 35%;
+}
+
+.info-feed-text {
+    padding: 0 2rem;
+}
+
+.info-feed-text h3 {
+    font-weight: normal;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.read-more {
+    color: rgb(93, 146, 220);
+}
+
+.info-feed-sub2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #c6c1c1;
+    padding: 1rem 1rem;
+    line-height: 2rem;
+} 
+
+
+.info-feed-sub1:hover, .info-feed-sub2:hover {
+    background-color: rgb(216, 216, 216);
 }
