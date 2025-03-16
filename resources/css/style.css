@@ -305,7 +305,7 @@ nav li {
 /* Thesis Section */
 
 .thesis {
-    padding: 1rem 1.5rem;
+    padding: 0 1rem 1.5rem;
 }
 
 .thesis-text{
@@ -330,7 +330,6 @@ nav li {
     font-size: 3rem;
 }
 
-
 .info-feed{
     width: 40%;
     border-left: 1px solid;
@@ -353,25 +352,32 @@ nav li {
     padding: 0 2rem;
 }
 
-.info-feed-text h3 {
-    font-weight: normal;
-    font-size: 1rem;
-    padding-top: 1rem;
-}
-
-.read-more {
-    color: rgb(93, 146, 220);
-}
-
-.info-feed-sub2 {
+footer {
     display: flex;
-    align-items: center;
-    border: 1px solid #c6c1c1;
-    padding: 1rem 1rem;
-    line-height: 2rem;
-} 
-
-
-.info-feed-sub1:hover, .info-feed-sub2:hover {
-    background-color: rgb(216, 216, 216);
+    justify-content: flex-end; 
+    align-items: start;
+    border-top: 1px solid rgb(216, 216, 216);
+    padding: 1rem 1.5rem 4rem 1rem;
+    font-size: 14px;
 }
+
+.terms-desktop {
+    display: flex;
+    justify-content: end;
+}
+  
+footer p {
+    font-size: 14px;
+    margin: 0px;
+}
+  
+footer a {
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+  
+footer a:first-child {
+    padding-right: 16px;
+}
+
+
