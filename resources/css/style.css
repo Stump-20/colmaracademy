@@ -86,13 +86,17 @@ a {
 nav a {
     vertical-align: bottom;
     font-size: 1rem;
-    color: #4a4a4a;
     font-family: "Roboto-Regular", sans-serif; 
     margin-right: 1rem;
 }
   
-nav li {
+li {
     list-style: none;
+    display: inline;
+}
+
+li a {
+    color: #4a4a4a;
 }
 
 .icon {
@@ -330,41 +334,42 @@ nav li {
     font-size: 3rem;
 }
 
-.info-feed{
+.thesis-feed{
     width: 40%;
-    border-left: 1px solid;
-    border-color: #c6c1c1
-}
-
-.info-feed-sub1 {
-    display: flex;
-    align-items: center;
-    border: 1px solid #c6c1c1;
-    padding: 0 1rem 1rem;
-    line-height: 2rem;
-} 
-
-.info-feed-pic {
-   width: 35%;
-}
-
-.info-feed-text {
-    padding: 0 2rem;
 }
 
 footer {
     display: flex;
-    justify-content: flex-end; 
-    align-items: start;
     border-top: 1px solid rgb(216, 216, 216);
     padding: 1rem 1.5rem 4rem 1rem;
+}
+ .terms-desktop {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ footer li {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+ }
+
+ footer li a {
+    
+ }
+
+
+/*
+footer {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: start;
+   
     font-size: 14px;
 }
 
-.terms-desktop {
-    display: flex;
-    justify-content: end;
-}
+
   
 footer p {
     font-size: 14px;
