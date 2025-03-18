@@ -123,7 +123,7 @@ li a {
 
 .banner-pic {
     width: 60%;
-    padding: 1.5rem 2rem;
+    padding: 2rem 1.5rem;
 }
 
 .content-center {
@@ -160,12 +160,11 @@ li a {
     transform: scale(1.01);
 }
 
-
 /* Information Section */
 
 .information {
     display: flex;
-    padding: 1rem 1.5rem;
+    padding: 2rem 0 0 1.5rem;
 }
 
 .information-image-container {
@@ -173,12 +172,13 @@ li a {
     padding: 0 1.5rem 0 0;
 }
 
-.info-pic, .practice, .foreign-language2, .author {
-    padding-bottom: 1.5rem;
+.info-pic, .foreign-language2, .author {
+    padding-bottom: 2rem;
 }
 
 .practice {
     font-size: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .foreign-language2 {
@@ -202,13 +202,13 @@ li a {
     display: flex;
     align-items: center;
     border: 1px solid #c6c1c1;
-    padding: 0 1rem 1rem;
     line-height: 2rem;
 } 
 
-.info-feed-pic {
-   width: 35%;
-}
+.info-feed-pic1 {
+    width: 35%;
+    padding: 0 1rem 1rem;
+ }
 
 .info-feed-text {
     padding: 0 2rem;
@@ -228,19 +228,15 @@ li a {
     display: flex;
     align-items: center;
     border: 1px solid #c6c1c1;
-    padding: 1rem 1rem;
     line-height: 2rem;
 } 
 
-.info-feed-sub3 {
-    display: flex;
-    align-items: center;
-    border: 1px solid #c6c1c1;
+.info-feed-pic2 {
+    width: 35%;
     padding: 1rem 1rem;
-    line-height: 2rem;
-} 
+ }
 
-.info-feed-sub1:hover, .info-feed-sub2:hover, .info-feed-sub3:hover {
+.info-feed-sub1:hover, .info-feed-sub2:hover {
     background-color: rgb(216, 216, 216);
 }
 
@@ -251,7 +247,7 @@ li a {
     padding: 0 4.5rem 2rem;
 }
 
-.start-learning-text{
+.start-learning-text, .thesis-text{
    text-align: center;
    padding: 2rem 0;
 }
@@ -262,7 +258,6 @@ li a {
     grid-template-rows: repeat(2, auto);
     gap: 2rem; /* Adjust the gap between images as needed */
     justify-content: center;
-    
 }
   
 .start-learning-box{ 
@@ -309,13 +304,8 @@ li a {
 /* Thesis Section */
 
 .thesis {
-    padding: 0 1rem 1.5rem;
+    padding: 0 0.5rem 0 1.5rem;
 }
-
-.thesis-text{
-    text-align: center;
-    padding: 2rem 0;
- }
 
 .thesis-content {
     display: flex;
@@ -326,12 +316,19 @@ li a {
     padding: 0 1.5rem 0 0;
 }
 
-.thesis-video, .reimagine-urban {
+.thesis-video{
     padding-bottom: 1.5rem;
 }
 
 .reimagine-urban {
     font-size: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+.foreign-language3 {
+    font-size: 1rem;
+    font-weight: normal;
+    padding-bottom: 2rem;
 }
 
 .thesis-feed{
@@ -354,35 +351,3 @@ footer {
     justify-content: flex-end;
     margin-right: 1rem;
  }
-
- footer li a {
-    
- }
-
-
-/*
-footer {
-    display: flex;
-    justify-content: flex-end; 
-    align-items: start;
-   
-    font-size: 14px;
-}
-
-
-  
-footer p {
-    font-size: 14px;
-    margin: 0px;
-}
-  
-footer a {
-    text-decoration: none;
-    color: rgb(74, 74, 74);
-}
-  
-footer a:first-child {
-    padding-right: 16px;
-}
-
-
