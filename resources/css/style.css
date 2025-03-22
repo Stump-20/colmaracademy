@@ -346,8 +346,8 @@ footer {
     h1, h2, h3, li, a, .banner-image-container, .banner-pic, .learn-something-new-everyday, 
     .foreign-language1, .start-here, .information, .info-pic, .practice, .foreign-language2, .author, .info-feed-sub1,
     .info-feed-sub2, .info-feed-pic1, .info-feed-text, .info-feed-text h3, .info-feed-pic2, .start-learning, .start-learning-text,
-    .start-learning-content-container-main, .thesis-text, .start-learning-content, .thesis, .thesis-content, .thesis-image-container, .thesis-video, .reimagine-urban, .foreign-language3, 
-    footer {
+    .start-learning-content-container-main, .thesis-text, .start-learning-content, .thesis, .thesis-content, .thesis-image-container,
+    .thesis-video, footer {
         padding: 0;
         margin: 0;
         border: none;
@@ -356,8 +356,8 @@ footer {
         Height: auto;
     }
 
-    head, header.content, .start-learning-image-container, .terms-desktop, .information-image-container, .start-learning-content h3,
-    .start-learning-content img {
+    head, .content, .start-learning-image-container, .terms-desktop, .information-image-container, .start-learning-content h3,
+    .start-learning-content img, .reimagine-urban, .foreign-language3, .thesis-feed{
         display: none;
     }
 
